@@ -55,7 +55,12 @@ img{
     #imageArt, #imagePlant{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
+        gap: 50px;
+    }
+
+    figcaption{
+        font-size: 20px;
+        margin-bottom: 40px;
     }
 }
 

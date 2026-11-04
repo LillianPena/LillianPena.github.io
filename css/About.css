@@ -42,6 +42,7 @@ li{
 
 ul{
     list-style: none;
+    padding: 0;
 }
 
 img{
@@ -72,19 +73,25 @@ img{
         font-size: 1.2em;
     }
     li{
-        font-size: 15px;
+        font-size: 25px;
+        padding-left: 5px;
+
     }
     ul{
         padding-left: 0;
+
     }
     #contact{
         padding: 10px;
-        padding-left: 0;
-        margin-left: 0;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+
     }
     #contactAndPic{
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
     }
 }
 
