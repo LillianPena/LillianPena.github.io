@@ -1,0 +1,33 @@
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Ramsina", serif;
+}
+
+nav{
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid var(--shadow-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    background-color: var(--primary-color);
+}
+
+nav p, nav a{
+    font-size: 30px;
+}
+
+.other{
+    background-color: var(--secondary-color);
+}
+
+h2{
+    font-size: 25px;
+    font-family: "Agbalumo", system-ui;
+}

@@ -1,0 +1,98 @@
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main{
+    margin: 0 auto;
+    font-family: "Ramsina", serif;
+}
+
+#contactAndPic{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 1.9em;
+    border-bottom: 3px solid var(--shadow-color);
+    font-family: "Agbalumo", system-ui;
+}
+
+#contact{
+    padding: 20px;
+    width: 40%;
+}
+
+li{
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+    border: 3px solid var(--shadow-color);
+    border-radius: 20px;
+}
+
+.other{
+    background-color: var(--secondary-color);
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 30%;
+    height: 40%;
+    border: 3px solid var(--shadow-color);
+    border-radius: 20px;
+}
+
+#aboutMe p, li{
+    font-size: 30px;
+}
+
+#aboutMe p{
+    font-family: "Nanum Pen Script", cursive;
+}
+
+#aboutMe{
+    margin: 20px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+    img{
+        width: 50%;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    li{
+        font-size: 15px;
+    }
+    ul{
+        padding-left: 0;
+    }
+    #contact{
+        padding: 10px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #contactAndPic{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 600px){
+    #contactAndPic{
+        width: 100%;
+    }
+
+}
+
+

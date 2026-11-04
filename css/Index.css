@@ -1,0 +1,49 @@
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: "Ramsina", serif;
+    width: 100%;
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid black;
+    border-bottom: none;
+    border-radius: 20px;
+    width: 35%;
+    background-color: white;
+    color: black;
+    font-family: "Agbalumo", system-ui;
+}
+
+img{
+    padding-top: 0;
+    margin-top: 0;
+    width: 40%;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 25px;
+        width: 40%;
+        padding-top: 10px;
+    }
+    img{
+        width: 70%;
+    }
+}

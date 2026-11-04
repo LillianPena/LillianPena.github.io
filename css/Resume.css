@@ -1,0 +1,123 @@
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main{
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Ramsina", serif;
+}
+
+h2, h3{
+    font-family: "Agbalumo", system-ui;
+}
+
+#proEduSkill{
+    width: 100%;
+    height: 100%;
+
+}
+
+#eduAndSkill{
+    display: flex;
+    flex-direction: column;
+}
+
+#pro{
+    height: 100%;
+    padding: 20px;
+}
+
+#skill{
+    padding: 20px;
+    height: 50%;
+}
+
+#edu{
+    padding: 20px;
+    height: 50%;
+}
+
+#edu p{
+    font-size: 30px;
+}
+
+#exp{
+    text-align: center;
+}
+
+#exp nav{
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 2px solid var(--shadow-color);
+    border-radius: 15px;
+    padding-left: 10px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+
+}
+
+#exp h2{
+    padding: 20px;
+}
+
+#exp li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+li, p{
+    font-size: 30px;
+}
+
+.other{
+    background-color: var(--secondary-color);
+}
+
+.every{
+    background-color: var(--primary-color);
+}
+
+h2{
+    border-bottom: 3px solid var(--shadow-color);
+    padding: 15px;
+    font-size: 1.7em;
+
+
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px){
+    #proEduSkill{
+
+    }
+
+}
+
+@media screen and (min-width: 600px){
+    #proEduSkill {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    #pro {
+        width: 50%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    #eduAndSkill{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}
+
+
+
+
